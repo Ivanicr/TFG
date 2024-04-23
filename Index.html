@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/LOGO.png" type="image/x-icon">
+
+    <!-- Fuentes -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/dmsans/dmsans.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Reset.css">
+    <link rel="stylesheet" href="assets/css/Styles.css">
+    <link rel="stylesheet" href="assets/css/Responsive.css">
+
+    <!-- Scrips -->
+    <script src="./assets/js/menu-mobile.js"></script>
+    <script src="./assets/js/navbar-fixed.js"></script>
+    <script src="./assets/js/popupindex.js"></script>
+    <script src="./assets/js/dark.js"></script>
+
+    <title>Renderizados GStudio 3D</title>
+</head>
+
+<body>
+    <!-- Botón modo oscuro -->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__light">
+                <i class="fa-solid fa-moon switcher__icon"></i>
+            </span>
+
+            <span class="switcher__dark">
+                <i class="fa-solid fa-lightbulb switcher__icon"></i>
+            </span>
+        </button>
+    </div>
+
+    <!--Menú navegación responsive-->
+    <div class="menumobile">
+        <header class="menumobile__header">
+            <div class="menumobile__containerlogo">
+                <a href="Index.html" class="menumobile__linklogo">
+                    <h1 class="menumobile__logo">GStudio 3D</h1>
+                </a>
+            </div>
+
+            <button class="menumobile__close">
+                <i class="menumobile__icon fa-solid fa-xmark"></i>
+            </button>
+        </header>
+
+        <div class="menumobile__body">
+            <nav class="menumobile__nav">
+                <ul class="menumobile__list">
+                    <li class="menumobile__item">
+                        <a href="Index.html" class="menumobile__link">Inicio</a>
+                    </li>
+
+                    <li class="menumobile__item">
+                        <a href="#Servicios" class="menumobile__link">Servicios</a>
+                    </li>
+
+                    <li class="menumobile__item">
+                        <a href="#Proyectos" class="menumobile__link">Proyectos</a>
+                    </li>
+
+                    <li class="menumobile__item">
+                        <a href="#Precios" class="menumobile__link">Precios</a>
+                    </li>
+
+                    <li class="menumobile__item">
+                        <a href="#Noticias" class="menumobile__link">Noticias</a>
+                    </li>
+
+                    <li class="menumobile__item">
+                        <a href="#Contacto" class="menumobile__link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Layout principal o estructura principal -->
+    <div id="Inicio" class="layout">
+
+        <!-- Menú -->
+        <section class="layout__menu">
+            <header class="menu__navbar">
+
+                <!-- Botón de menú responsive -->
+                <div class="navbar__mobilebtn">
+                    <button class="mobilebtn__wrap">
+                        <span class="mobilebtn__line"></span>
+                        <span class="mobilebtn__line"></span>
+                        <span class="mobilebtn__line"></span>
+                    </button>
+                </div>
+
+                <!-- Logo -->
+                <div class="navbar__logo">
+                    <a href="Index.html" class="navbar__linklogo">
+                        <h1 class="navbar__title">GStudio 3D</h1>
+                    </a>
+                </div>
+
+                <!-- Navegación -->
+                <div class="navegacion">
+                    <nav class="navbar__nav">
+
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="Index.html" class="nav__title">Inicio</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#Servicios" class="nav__title">Servicios</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#Proyectos" class="nav__title">Proyectos</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#Precios" class="nav__title">Precios</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#Noticias" class="nav__title">Noticias</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#Contacto" class="nav__title">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </header>
+        </section>
+
+        <!-- Banner -->
+        <div class="banner__principal">
+
+            <!--Contenido del banner-->
+            <header class="banner__content">
+                <section class="banner__container">
+                    <!--<a href="trabajos.html" class="banner__btn">Ver trabajos</a>-->
+
+                    <ul class="banner__social">
+                        <li class="social__item">
+                            <a href="https://www.linkedin.com/in/gstudio-undefined-57895a251/" target="_blank"
+                                class="social__link">
+                                <i class="fa-brands fa-linkedin social__img"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a href="https://www.instagram.com/gascostudio/" target="_blank" class="social__link">
+                                <i class="fa-brands fa-instagram social__img"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a href="https://www.behance.net/GStudio_3D" target="_blank" class="social__link">
+                                <i class="fa-brands fa-behance social__img"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </header>
+
+            <div class="banner__img">
+                <img src="./assets/img/Salon-piscina.png" alt="Salón con piscina">
+            </div>
+        </div>
+
+        <!-- Servicios -->
+        <span id="Servicios"></span>
+        <section class="layout__services">
+            <div class="services__grid">
+                <header class="services__header">
+                    <p class="services__subtitle">¿Qué podemos hacer por tí?</p>
+                    <h2 class="services__title">Servicios que te <br>pueden ayudar</h2>
+                </header>
+
+                <div class="services__list">
+                    <article class="services__service services__servicebottom">
+                        <div class="service__containerimg">
+                            <img src="./assets/img/plano (1).png" class="service__img" alt="Diseño">
+                        </div>
+
+                        <div class="service__content">
+                            <h3 class="service__title">Visualización arquitectónica</h3>
+
+                            <p class="service__description">Generamos imágenes exteriores e interiores muy
+                                realistas que ayudan en la toma de decisiones y en la comercialización de proyectos.</p>
+                        </div>
+                    </article>
+
+                    <article class="services__service services__servicemiddle">
+                        <div class="service__containerimg">
+                            <img src="./assets/img/virtual-reality.png" class="service__img" alt="Desarrollo">
+                        </div>
+
+                        <div class="service__content">
+                            <h3 class="service__title">Recorrido virtual</h3>
+
+                            <p class="service__description">Mediante el uso de imágenes panorámicas que generan
+                                un entorno navegable y totalmente interactivo para el usuario.</p>
+                        </div>
+                    </article>
+
+                    <article class="services__service services__servicetop">
+                        <div class="service__containerimg">
+                            <img src="./assets/img//modelo-3d.png" class="service__img" alt="Marketing">
+                        </div>
+
+                        <div class="service__content">
+                            <h3 class="service__title">Renders de producto</h3>
+
+                            <p class="service__description">Con una alta resolución y con la mejor calidad.
+                                Ofrecemos una animación 3D que muestra todas las propuestas a través de visitas
+                                virtuales.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <ul class="services__serviceshapes">
+                <li class="serviceshapes__item serviceshapes__shape1">
+                    <div class="serviceshapes__container">
+                        <img src="./assets/img/circle-2.png" class="serviceshapes__img">
+                    </div>
+                </li>
+
+                <li class="serviceshapes__item serviceshapes__shape2">
+                    <div class="serviceshapes__container">
+                        <img src="./assets/img/bubble-2.png" class="serviceshapes__img">
+                    </div>
+                </li>
+
+                <li class="serviceshapes__item serviceshapes__shape3">
+                    <div class="serviceshapes__container">
+                        <img src="./assets/img/bubble-1.png" class="serviceshapes__img">
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Proyectos -->
+        <span id="Proyectos"></span>
+        <section class="layout__projects">
+            <div class="projects__grid">
+                <header class="projects__header">
+                    <p class="projects__subtitle">Nuestros proyectos</p>
+                    <h2 class="projects__title">Algunos de nuestros <br>últimos trabajos</h2>
+                </header>
+
+                <div class="projects__all">
+
+                    <!-- Slider -->
+                    <div id="slider" class="carousel slide mt-5" data-bs-ride="carousel">
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#slider" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#slider" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#slider" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/img/Salon-Lila.png" class="imagencarousel d-block" alt="Habitacion">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/img/Habitacion-2.png" class="imagencarousel d-block"
+                                    alt="Habitacion">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/img/Salon-Rattan.png" class="imagencarousel d-block"
+                                    alt="Habitacion">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/img/Entrada.png" class="imagencarousel d-block" alt="Habitacion">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slider"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#slider"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- Fin de Slider -->
+
+                </div>
+            </div>
+
+            <div class="portfolio__grid">
+                <div class="portfolio__container">
+                    <div class="portfolio__containerimg">
+                        <img class="portfolio__img1" src="./assets/img/Sala de estar LOGO 1x1.png" alt="Sala de estar">
+                    </div>
+                    <div class="portfolio__description">
+                        <h3>Sala de estar</h3>
+                    </div>
+                </div>
+                <div class="portfolio__container">
+                    <div class="portfolio__containerimg">
+                        <img class="portfolio__img1" src="./assets/img/Pasillo Ana Paul LOGO.png" alt="Pasillo">
+                    </div>
+                    <div class="portfolio__description">
+                        <h3>Pasillo Ana Paul</h3>
+                    </div>
+                </div>
+                <div class="portfolio__container">
+                    <div class="portfolio__containerimg">
+                        <img class="portfolio__img1" src="./assets/img/Cocina estilo Shabby Chic.png" alt="Cocina estilo Shabby Chic">
+                    </div>
+                    <div class="portfolio__description">
+                        <h3>Cocina estilo Shabby Chic</h3>
+                    </div>
+                </div>
+                <div class="portfolio__container">
+                    <div class="portfolio__containerimg">
+                        <img class="portfolio__img1" src="./assets/img/Jardin con porche LOGO.png" alt="Jardin con porche">
+                    </div>
+                    <div class="portfolio__description">
+                        <h3>Jardin con porche</h3>
+                    </div>
+                </div>
+                <div class="portfolio__container">
+                    <div class="portfolio__containerimg">
+                        <img class="portfolio__img2" src="./assets/img/Habitacion hotel/Vista ventana.png" alt="Habitación de hotel">
+                    </div>
+                    <div class="portfolio__description">
+                        <h3>Habitación de hotel</h3>
+                    </div>
+                </div>
+                <div class="portfolio__container">
+                    <div class="portfolio__containerimg">
+                        <img class="portfolio__img2" src="./assets/img/Bar/Barra de Bar RAW.jpg" alt="Barra de bar">
+                    </div>
+                    <div class="portfolio__description">
+                        <h3>Barra de bar</h3>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="projects__projectshapes">
+                <li class="projectshapes__item projectshapes__shape1">
+                    <div class="projectshapes__container">
+                        <img src="./assets/img/circle-2.png" class="projectshapes__img">
+                    </div>
+                </li>
+
+                <li class="projectshapes__item projectshapes__shape2">
+                    <div class="projectshapes__container">
+                        <img src="./assets/img/bubble-2.png" class="projectshapes__img">
+                    </div>
+                </li>
+
+                <li class="projectshapes__item projectshapes__shape3">
+                    <div class="projectshapes__container">
+                        <img src="./assets/img/bubble-1.png" class="projectshapes__img">
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Datos de interés-->
+        <span id="Datos"></span>
+        <section class="layout__data">
+            <div class="data__grid">
+                <header class="data__header">
+                    <h4 class="data__subtitle">Datos de interés</h4>
+                    <h2 class="data__title">¿Que es un Render y para qué sirve?</h2>
+                    <p class="data__description">Entendiendo el Renderizado: concepto clave en diseño digital y
+                        gráfico</p>
+                </header>
+
+                <div class="data__container">
+                    <article class="data__post">
+                        <h3 class="post__title">¿Qué es un render 3D?</h3>
+
+                        <p class="post__description">
+                            En Internet podrás encontrar definiciones muy diferentes pero simplemente se trata de
+                            una <em>imagen digital que pretende ser muy realista.</em><br><br>
+                            Es decir, que la imagen creada de forma digital<em> se parezca lo más posible a una
+                                fotografía</em> de un lugar, personaje, espacio, objeto, etcétera.<br><br>
+                            Si tienes esto claro,<em> ya sabes qué es un render.</em> Pero… ¿y un Render 3D? Realmente
+                            no
+                            existe una diferencia, pues los renders ya pretenden ser realistas y, por tanto, mostrarán
+                            imágenes en 3D.
+                        </p>
+
+                        <div class="post__author post__short">
+                            <div class="author__content">
+                                <span class="author__name">Raúl Gasco</span>
+                                <span class="author__description">Arquitecto Renderista</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="data__post">
+                        <h3 class="post__title">¿Para qué se utilizan los renders?</h3>
+
+                        <p class="post__description">
+                            Los renders forman parte del día a día de cualquier organización o empresa, ya que forman
+                            parte de la fase comercial. <br><br>
+                            Es decir, cuando una empresa de, por ejemplo, zapatillas, quiere lanzar un nuevo
+                            producto, antes, durante y tras la creación de las zapatillas se utilizarán los renders para
+                            conocer la respuesta del público. Es decir, en la fase comercial y la <em>promoción de
+                                producto</em> está siempre presente. <br><br>
+                            No obstante, hablamos sobre todo de algunos sectores relacionados con <em>la arquitectura,
+                                la construcción, el interiorismo,</em> el cine, los videojuegos y la ilustración
+                            animada.
+                            En estos sectores la implicación del render es total para un trabajo efica.
+                        </p>
+
+                        <div class="post__author">
+                            <div class="author__content">
+                                <span class="author__name">Raúl Gasco</span>
+                                <span class="author__description">Arquitecto Renderista</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <ul class="data__postshapes">
+                <li class="postshapes__item postshapes__shape1">
+                    <div class="postshapes__container">
+                        <img src="./assets/img/bubble-1.png" class="postshapes__img">
+                    </div>
+                </li>
+                <li class="postshapes__item postshapes__shape2">
+                    <div class="postshapes__container">
+                        <img src="./assets/img/line-1.png" class="postshapes__img">
+                    </div>
+                </li>
+
+                <li class="postshapes__item postshapes__shape3">
+                    <div class="postshapes__container">
+                        <img src="./assets/img/line-2.png" class="postshapes__img">
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Precios -->
+        <span id="Precios"></span>
+        <section class="layout__prices">
+            <div class="prices__container">
+                <header class="prices__header">
+                    <h4 class="prices__subtitle">Descubre nuestros precios competitivos y detallados</h4>
+                    <h2 class="prices__title">Revive tus espacios con renderizados 3D</h2>
+                    <p class="prices__description">Transforma tus ambientes con imágenes realistas y detalladas que
+                        cobran vida.</p>
+                </header>
+
+                <div class="prices__content">
+                    <article class="prices__price">
+                        <div class="price__title">
+                            <h3>Render estático en pack x 5u</h3>
+                            <p>imágen plana</p>
+                        </div>
+
+                        <span class="price__countx">80€</span>
+                        <span class="price__count">50€</span>
+
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Trabajo desde plano o boceto
+                        </p>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            1 Ronda de modificaciones
+                        </p>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Render interior residencial
+                        </p>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            50€ c/u llevando 5 o más. Precio de lista 60€
+                        </p>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Render exterior +30%
+                        </p>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Renders comerciales, industriales o especiales a consultar
+                        </p>
+                    </article>
+
+                    <article class="prices__price">
+                        <div class="price__title">
+                            <h3>Visual 360º</h3>
+                            <p>por estancia hasta 50m²</p>
+                        </div>
+
+                        <span class="price__countx">190€</span>
+                        <span class="price__count">95€</span>
+
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Trabajo desde plano o boceto
+                        </p>
+                        <span class="price__border"></span>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            2 Rondas de modificaciones
+                        </p>
+                        <span class="price__border"></span>
+                        <p class="price__description">
+                            <i class="description__icon fa-solid fa-asterisk"></i>
+                            Modelado de piezas
+                        </p>
+                        <span class="price__border"></span>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Levantamiento de planos en SketchUp
+                        </p>
+                        <span class="price__border"></span>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Adaptado a gafas oculus
+                        </p>
+                        <span class="price__border"></span>
+                        <p class="price__description">
+                            <i class="description__icon fa-solid fa-asterisk"></i>
+                            Incluimos piezas estándar, si desea modelado de piezas especificas a medida, el valor es de
+                            10€ por pieza adicional
+                        </p>
+                    </article>
+
+                    <article class="prices__price">
+                        <div class="price__title">
+                            <h3>Recorrido virtual</h3>
+                            <p>unión de visual 360º en recorrido</p>
+                        </div>
+
+                        <span class="price__countx">80€</span>
+                        <span class="price__count">50€</span>
+
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Unión de renders 360º
+                        </p>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Link a plataforma
+                        </p>
+                        <p class="price__description">
+                            <i class="description__icon fa-regular fa-circle-check"></i>
+                            Es requisito disponer de los visual 360º
+                        </p>
+                    </article>
+                </div>
+                <ul class="price__backshapes">
+                    <li class="price__item price__shape1">
+                        <img src="./assets/img/Circulo verde 1.png" class="price__img">
+                    </li>
+
+                    <li class="price__item price__shape2">
+                        <img src="./assets/img/Circulo verde 2.png" class="price__img">
+                    </li>
+
+                    <li class="price__item price__shape3">
+                        <img src="./assets/img/Circulo verde 3.png" class="price__img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Noticias -->
+        <span id="Noticias"></span>
+        <section class="layout__news">
+            <div class="news__grid">
+                <header class="news__header">
+                    <h4 class="news__subtitle">¿Que está pasando?</h4>
+                    <h2 class="news__title">Últimas noticias</h2>
+                    <p class="news__description">Novedades sobre el Renderizado, modelado y diseño 3D</p>
+                </header>
+
+                <div class="news__list">
+                    <article class="news__new">
+                        <div class="new__containerimg">
+                            <img src="./assets/img/Imagen IA.png" class="new__img" alt="Noticia 1">
+                        </div>
+                        <div class="new__content">
+                            <h3 class="new__title">
+                                <a href="https://www.escolasert.com/es/blog/inteligencia-artificial-renders-arquitectura"
+                                    target="_blank" class="new__link">La irrupción de la inteligencia artifical
+                                    (IA) en los renders de Arquitectura.</a>
+                            </h3>
+
+                            <p class="new__description">Ni Ángel ni Demonio. La inteligencia artificial es simplemente
+                                una herramienta que libera al renderista de las tareas más mecánicas
+                                para que dé rienda suelta a su creatividad. Te explicamos cómo se emplea (y se debate
+                                sobre)
+                                la IA en la arquitectura.</p>
+
+                            <a href="https://www.escolasert.com/es/blog/inteligencia-artificial-renders-arquitectura"
+                                target="_blank" class="new__more">Leer más
+                                <i class="fa-solid fa-chevron-right new__icon"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="news__new">
+                        <div class="new__containerimg">
+                            <img src="./assets/img/Imagen chatgpt.png" class="new__img" alt="Noticia 2">
+                        </div>
+                        <div class="new__content">
+                            <h3 class="new__title">
+                                <a href="https://www.computerworld.es/tecnologia/chatgpt-bate-records-el-mayor-crecimiento-por-usuario-de-la-historia"
+                                    target="_blank" class="new__link">ChatGPT bate récords: el mayor
+                                    crecimiento por usuario de la historia</a>
+                            </h3>
+
+                            <p class="new__description">Se calcula que el popular 'chatbot' firmado por la compañía
+                                OpenAI
+                                alcanzó los 100 millones de usuarios activos mensuales en enero, una
+                                cifra que supone más del doble que en diciembre.</p>
+
+                            <a href="https://www.computerworld.es/tecnologia/chatgpt-bate-records-el-mayor-crecimiento-por-usuario-de-la-historia"
+                                target="_blank" class="new__more">Leer más
+                                <i class="fa-solid fa-chevron-right new__icon"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <ul class="news__newshapes">
+                <li class="newshapes__item newshapes__shape1">
+                    <div class="newshapes__container">
+                        <img src="./assets/img/bubble-1.png" class="newshapes__img">
+                    </div>
+                </li>
+
+                <li class="newshapes__item newshapes__shape2">
+                    <div class="newshapes__container">
+                        <img src="./assets/img/line-1.png" class="newshapes__img">
+                    </div>
+                </li>
+
+                <li class="newshapes__item newshapes__shape3">
+                    <div class="newshapes__container">
+                        <img src="./assets/img/line-2.png" class="newshapes__img">
+                    </div>
+                </li>
+
+                <li class="newshapes__item newshapes__shape4">
+                    <div class="newshapes__container">
+                        <img src="./assets/img/bubble-2.png" class="newshapes__img">
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contacto -->
+        <span id="Contacto"></span>
+        <section class="layout__contact">
+            <div class="contact__container">
+                <header class="contact__header">
+                    <h4 class="contact__subtitle">Trabajemos juntos</h4>
+                    <h2 class="contact__title">¿Creamos tú nuevo proyecto?</h2>
+
+                    <p class="contact__btn" onclick="openPopup()">Pedir presupuesto</p>
+                </header>
+
+                <div class="contact__images">
+                    <div class="contact__thumb contact__thumbchat">
+                        <img src="./assets/img/chat-group.png" class="contact__img">
+                    </div>
+                </div>
+            </div>
+
+            <div id="info" class="contact__popup">
+                <header class="popup__header"><h1>Contacto</h1></header>
+
+                <div class="popup__info">
+                    <div class="info__data">
+                        <i class="info__icon fa-solid fa-user-gear"></i>
+                        <h3>Raúl Gasco Pérez</h3>
+                    </div>
+                    <div class="info__data">
+                        <i class="info__icon fa-solid fa-phone"></i>
+                        <h3>692 73 72 15</h3>
+                    </div>
+                    <div class="info__data info__enlace">
+                        <a href="mailto:ragaspe@gmail.com">
+                            <i class="info__icon fa-solid fa-envelope"></i><h3>Ragaspe@gmail.com</h3>
+                        </a>
+                    </div>
+                    <div class="info__data">
+                        <i class="info__icon fa-solid fa-pen-ruler"></i>
+                        <h3>Diseñador freelance</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="info__bg" class="popup__close" onclick="closePopup()">
+            </div>
+
+            <ul class="contact__backshapes">
+                <li class="backshapes__item backshapes__shape1">
+                    <img src="./assets/img/semicirculo.png" class="backshapes__img">
+                </li>
+
+                <li class="backshapes__item backshapes__shape2">
+                    <img src="./assets/img/bubble-16.png" class="backshapes__img">
+                </li>
+
+                <li class="backshapes__item backshapes__shape3">
+                    <img src="./assets/img/Circulo marron 1.png" class="backshapes__img">
+                </li>
+
+                <li class="backshapes__item backshapes__shape4">
+                    <img src="./assets/img/Circulo marron 2.png" class="backshapes__img">
+                </li>
+
+                <li class="backshapes__item backshapes__shape5">
+                    <img src="./assets/img/bubble-16.png" class="backshapes__img">
+                </li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer class="layout__footer">
+            <div class="footer__container">
+
+                <section class="footer__main">
+                    <div class="footer__fleft">
+                        <h2 id="Contactanos" class="fleft__title">Sobre nosotros</h2>
+                        <div class="fleft__container">
+
+                            <p class="fleft__subtitle">Somos una agencia apasionada por transformar visiones
+                                arquitectónicas en realidades
+                                visuales asombrosas. Con un enfoque en la excelencia y la creatividad, nos
+                                dedicamos a proporcionar servicios de renderización hiperrealista de alta calidad que
+                                dan vida a diseños y proyectos. Nuestro equipo de expertos combina la tecnología de
+                                vanguardia con un profundo entendimiento del diseño y la arquitectura para crear
+                                representaciones detalladas y emocionantes. Desde la arquitectura y el paisajismo
+                                hasta la decoración y el interiorismo, ofrecemos soluciones que inspiran, informan y
+                                conectan con nuestros clientes. Con un compromiso inquebrantable con la precisión y
+                                la innovación, nos esforzamos por superar las expectativas y brindar experiencias
+                                visuales inigualables. En GStudio 3D, convertimos ideas en imágenes reales y
+                                creamos un puente entre la visión y la realidad.</p>
+                        </div>
+                    </div>
+
+                    <div class="footer__fright">
+                        <div class="footer__widget">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.6199783991096!2d-1.598185623709115!3d37.39881848372692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd64c9372f1bf575%3A0x71998f600037de60!2sPlaya%20de%20Poniente!5e0!3m2!1ses!2ses!4v1713281843341!5m2!1ses!2ses"
+                                width="800" height="387" style="border-radius:30px;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="footer__bottom">
+                    <div class="footer__copyright">
+                        <span class="copyright__text">&copy; 2024. Todos los derechos reservados a Iván Nicolás
+                            Rodríguez</span>
+                    </div>
+
+                    <div class="footer__links">
+                        <ul class="footer__flinks">
+                            <li class="flinks__item flinks__itemseparator">
+                                <a href="#" class="flinks__title">Politica de privacidad</a>
+                            </li>
+                            <li class="flinks__item">
+                                <a href="#" class="flinks__title">Términos de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="footer__backshapes">
+                        <li class="footer__item footer__shape1">
+                            <img src="./assets/img/bubble-14.png" class="footer__img">
+                        </li>
+
+                        <li class="footer__item footer__shape2">
+                            <img src="./assets/img/bubble-13.png" class="footer__img">
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="assets/JQuery/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="assets/boostrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".carousel").carousel({
+                interval: 3000
+            });
+        });
+    </script>
+</body>
+
+</html>
